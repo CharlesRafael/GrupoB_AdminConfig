@@ -9,7 +9,7 @@ Buscaminas es un clásico juego de computadora que consiste en despejar un campo
 - Entorno de desarrollo: Windows
 
 ## Esquema de Base de Datos
-No aplica para este proyecto, ya que no utiliza una base de datos.
+No aplica para este proyecto, ya que no se utiliza una base de datos.
 
 ## Cómo Correr el Proyecto
 1. Asegúrate de tener un compilador de C++ instalado en tu sistema (como [MinGW para Windows](https://www.mingw-w64.org/)).
