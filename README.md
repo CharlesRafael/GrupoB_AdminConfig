@@ -13,7 +13,7 @@ No aplica para este proyecto, ya que no utiliza una base de datos.
 
 ## Cómo Correr el Proyecto
 1. Asegúrate de tener un compilador de C++ instalado en tu sistema (como [MinGW para Windows](https://www.mingw-w64.org/)).
-2. Descarga el código fuente del proyecto desde [aquí](https://github.com/CharlesRafael/GrupoB_admin-config.git).
+2. Descarga el código fuente del proyecto desde [aquí](https://github.com/CharlesRafael/GrupoB_AdminConfig.git).
 3. Abre una terminal o línea de comandos.
 4. Navega al directorio donde se encuentra el archivo `main.cpp`.
 5. Compila el proyecto utilizando el siguiente comando:
