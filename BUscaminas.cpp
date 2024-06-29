@@ -4,7 +4,6 @@
 #include "string"
 #include "stdlib.h"
 #include "time.h"
-#include "windows.h"
 using namespace std;
 
 int main() {
@@ -47,40 +46,40 @@ int main() {
             vidas = 1000;
             fin = false;
             intentos=0;
-            system("cls");
+            
             break;
         case 2:
             nivel = 8;
             vidas = 8;
             fin = false;
             intentos=0;
-            system("cls");
+            
             break;
         case 3:
             nivel = 6;
             vidas = 5;
             fin = false;
             intentos=0;
-            system("cls");
+            
             break;
         case 4:
             nivel = 6;
             vidas = 3;
             fin = false;
             intentos=0;
-            system("cls");
+            
             break;
         case 5:
             nivel = 5;
             vidas = 1;
             fin = false;
             intentos=0;
-            system("cls");
+            
             break;
             
             //Con esto podemos evitar que el usuario selecione un numero incorrecto
         default:
-            system("cls");
+            
             cout<<"   escribe un nivel valido entre 1 y 5"<<endl;
             goto NIVEL;
             break;
@@ -147,7 +146,7 @@ srand(tiempo(NULO)); hace uso del reloj interno de la computadora para controlar
                 fin=true;
             }
         }
-        system("cls");
+        
         if (fin==false) {
             cout<<"                 Buscaminas"<<vidas<<endl;
             cout<<"     Intentos:"<<intentos<<"      Vidas: "<<vidas-1<<endl;
@@ -169,11 +168,9 @@ srand(tiempo(NULO)); hace uso del reloj interno de la computadora para controlar
             cout<<"                     GAME OVER"<<endl;
             cout<<"                     Has perdido"<<endl;
             cout<<endl;
-            Sleep(2000);
-            system("cls");
+            
             cout<<"Intentalo nuevamente"<<endl;
-            Sleep(1000);
-            system("cls");
+            
             goto INICIO;
         }
     }
