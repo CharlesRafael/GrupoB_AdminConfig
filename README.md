@@ -28,6 +28,15 @@ No aplica para este proyecto, ya que no se utiliza una base de datos.
 ## Cómo Correr el Comando de Pruebas
 No se han definido pruebas automatizadas específicas para este proyecto. Las pruebas se realizan manualmente ejecutando el juego y verificando su funcionalidad.
 
+## Workflow
+El workflow actual ejecuta dos trabajos al detectar un pull request a la rama de QA:
+
+1. `dockerize` crea y ejecuta una imagen de docker del proyecto, para asegurar que esta pueda ejecutarse en todo entorno con acceso a docker
+
+2. `run-tests` ejecuta el script `runtime.sh` para validar que la compilación del proyecto sea exitosa.
+
+Es **obligatorio** que ambas pruebas pasen para proceder con el merge.
+
 ## Contribuidores
 - Daniel Dominguez [StackOverNani10](https://github.com/StackOverNani10)
 - Charles Mendez [CharlesRafael](https://github.com/CharlesRafael)
